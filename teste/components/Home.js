@@ -10,7 +10,7 @@ export default function Home(props){
         style={Styles.bloco}
                 onPress={() => props.navigation.navigate('Significado',{name:<b>DG</b>, sig:'Direção Geral'})}
       >
-          <Text><b>DG</b></Text>
+          <Text testID='btnindex'><b>DG</b></Text>
       </TouchableHighlight>
 
     
