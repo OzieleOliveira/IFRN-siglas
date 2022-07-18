@@ -5,27 +5,27 @@ export default function Home(props){
   return (
     <View style={Styles.container}>
 
-        <TouchableHighlight
+        <TouchableHighlight testID ='bt'
         style={Styles.bloco}
                 onPress={() => props.navigation.navigate('Significado',{name:<b>DG</b>, sig:'Direção Geral'})}
-                testID='btnindex'
+                
       >
-          <Text><b>DG</b></Text>
+          <Text testID='btn'>DG</Text>
       </TouchableHighlight>
 
     
       <TouchableHighlight
-        style={Styles.bloco}
+        style={Styles.bloco} testID ='bt2'
                 onPress={() => props.navigation.navigate('Significado',{name:<b>GABIN</b>, sig:'Chefia de Gabinete'})}
       >
-          <Text><b>GABIN</b></Text>
+          <Text testID='btn1'>GABIN</Text>
       </TouchableHighlight>
 
           <TouchableHighlight
         style={Styles.bloco}
                 onPress={() => props.navigation.navigate('Significado',{name:<b>CTI</b>, sig:'Coordenação de Tecnologia da Informação'})}
       >
-          <Text><b>CTI</b></Text>
+          <Text testID='btn2'>CTI</Text>
       </TouchableHighlight>
 
 
@@ -33,105 +33,105 @@ export default function Home(props){
         style={Styles.bloco}
               onPress={() => props.navigation.navigate('Significado',{name:<b>COGPE</b>, sig:'Coordenação de Gestão de Pessoas'})}
       >
-          <Text><b>COGPE</b></Text>         
+          <Text testID='btn3'>COGPE</Text>         
       </TouchableHighlight>
 
           <TouchableHighlight
         style={Styles.bloco}
               onPress={() => props.navigation.navigate('Significado',{name:<b>COAPAC</b>,sig:'Coordenação de Apoio Acadêmico'})}
       >
-          <Text><b>COAPAC</b></Text>
+          <Text testID='btn4'>COAPAC</Text>
       </TouchableHighlight>
 
           <TouchableHighlight
         style={Styles.bloco}
               onPress={() => props.navigation.navigate('Significado',{name:<b>COAES</b>, sig:'Coordenação de Atividades Estudantis'})}
       >
-          <Text><b>COAES</b></Text>
+          <Text testID='btn5'>COAES</Text>
       </TouchableHighlight>
 
           <TouchableHighlight
         style={Styles.bloco}
               onPress={() => props.navigation.navigate('Significado',{name:<b>COEX</b>, sig:'Coordenação de Extensão'})}
       >
-          <Text><b>COEX</b></Text>
+          <Text testID='btn6'>COEX</Text>
       </TouchableHighlight>
 
           <TouchableHighlight
         style={Styles.bloco}
               onPress={() => props.navigation.navigate('Significado',{name:<b>COPEIN</b>, sig:'Coordenação de Pesquisa e Inovação'})}
       >
-          <Text><b>COPEIN</b></Text>
+          <Text testID='btn7'>COPEIN</Text>
       </TouchableHighlight>
 
           <TouchableHighlight
         style={Styles.bloco}
               onPress={() => props.navigation.navigate('Significado',{name:<b>DIAC</b>, sig:'Diretoria Acadêmica'})}
       >
-          <Text><b>DIAC</b></Text>
+          <Text testID='btn8'>DIAC</Text>
       </TouchableHighlight>
 
           <TouchableHighlight
         style={Styles.bloco}
                onPress={() => props.navigation.navigate('Significado',{name:<b>SEAC</b>, sig:'Secretaria Acadêmica'})}
       >
-          <Text><b>SEAC</b></Text>
+          <Text testID='btn9'>SEAC</Text>
       </TouchableHighlight>
 
           <TouchableHighlight
         style={Styles.bloco}
               onPress={() => props.navigation.navigate('Significado',{name:<b>COLAB</b>, sig:'Coordenação de Laboratórios'})}
       >
-          <Text><b>COLAB</b></Text>
+          <Text testID='btn10'>COLAB</Text>
       </TouchableHighlight>
 
           <TouchableHighlight
         style={Styles.bloco}
               onPress={() => props.navigation.navigate('Significado',{name:<b>DIAD</b>, sig:'Diretoria de Administração'})}
       >
-          <Text><b>DIAD</b></Text>
+          <Text testID='btn11'>DIAD</Text>
       </TouchableHighlight>
 
           <TouchableHighlight
         style={Styles.bloco}
               onPress={() => props.navigation.navigate('Significado',{name:<b>COSGEM</b>, sig:'Coordenação de Serviços Gerais e Manutenção'})}
       >
-          <Text><b>COSGEM</b></Text>
+          <Text testID='btn12'>COSGEM</Text>
       </TouchableHighlight>
 
           <TouchableHighlight
         style={Styles.bloco}
               onPress={() => props.navigation.navigate('Significado',{name:<b>COMPAT</b>, sig:'Coordenação de Material e Patrimônio'})}
       >
-          <Text><b>COMPAT</b></Text>
+          <Text testID='btn13'>COMPAT</Text>
       </TouchableHighlight>
 
           <TouchableHighlight
         style={Styles.bloco}
               onPress={() => props.navigation.navigate('Significado',{name:<b>COFINC</b>, sig:'Coordenação de Finanças e Contratos'})}
       >
-          <Text><b>COFINC</b></Text>
+          <Text testID='btn14'>COFINC</Text>
       </TouchableHighlight>
 
           <TouchableHighlight
         style={Styles.bloco}
               onPress={() => props.navigation.navigate('Significado',{name:<b>NAPNE</b>, sig:'Núcleo de Atendimento às Pessoas com Necessidades Educacionais Especiais'})}
       >
-          <Text><b>NAPNE</b></Text>
+          <Text testID='btn15'>NAPNE</Text>
       </TouchableHighlight>
 
           <TouchableHighlight
         style={Styles.bloco}
               onPress={() => props.navigation.navigate('Significado',{name:<b>NEABI</b>, sig:'Núcleo de Estudos Afro-brasileiros e Indígenas do Campus Canguaretama'})}
       >
-          <Text><b>NEABI</b></Text>
+          <Text testID='btn16'>NEABI</Text>
       </TouchableHighlight>
 
           <TouchableHighlight
         style={Styles.bloco}
                 onPress={() => props.navigation.navigate('Significado',{name:<b>NUARTE</b>, sig:'Núcleo de Arte'})}
       >
-          <Text><b>NUARTE</b></Text>
+          <Text testID='btn17'>NUARTE</Text>
       </TouchableHighlight>
 
     </View>
