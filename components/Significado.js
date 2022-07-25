@@ -3,11 +3,14 @@ import { Text, View, StyleSheet, TouchableHighlight } from 'react-native';
 
 
 export default function Significado(props){
+  
+  const name = props.route.params==undefined ? '' : props.route.params.name
+  const sig = props.route.params==undefined ? '' : props.route.params.sig
   return (
      <View >
-      <Text testID='Teste'>{props.route.params.name}</Text>
+      <Text testID='Teste'>{name}</Text>
 
-      <Text>{props.route.params.sig}</Text>
+      <Text>{sig}</Text>
     </View>
   )
 }
